@@ -42,7 +42,7 @@ Find the file `index.js` and complete the tasks.
 
 Edit the `ReadMe` file with your answers.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). - Closures are functions inside of functions that have access to variables inside them. Parent functions can pull from itself or from outside the function scope if they are var but cannot pull from children variables. Children and grandchildren can pull from anything before them.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +63,9 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? How can you tell? - It is used with the return statement that is set to another function that has new variables to return. It is a function inside of a function to run a set of code inside the function scope.
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? - It always randomizes a number between 1 and 6. What changes is the number.
+c. What is the lexical scope of `newRoll`? - newRoll is defined inside a function that is in another function.
 
 
 ### Task 3 - Stretch Goals
